@@ -57,7 +57,7 @@ function PresidentPage() {
 
           {/* Buttons */}
           <div className="flex justify-between mt-6">
-            <button className="flex border-1 bg-gray-100 border-l-emerald-700/30 border-r-blue-500/30 border-t-emerald-700/30 border-b-blue-700/30 justify-center items-center gap-2 px-4 py-2  text-black rounded-4xl hover:bg-warm-coral transition-colors duration-200 text-sm font-medium hover:bg-[#0369a1] hover:text-white">
+            <button className="flex border-1 bg-gray-50 border-l-emerald-700/30 border-r-blue-500/30 border-t-emerald-700/30 border-b-blue-700/30 justify-center items-center gap-2 px-4 py-2  text-black rounded-4xl hover:bg-warm-coral transition-colors duration-200 text-sm font-medium hover:bg-[#0369a1] hover:text-white">
               <a href="#" className="">
                 Read Full Message
               </a>

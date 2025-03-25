@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight, faShareAlt, faBookOpen  } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faShareAlt, faBookOpen } from '@fortawesome/free-solid-svg-icons';
 
 const articles = [
     {
@@ -60,53 +60,56 @@ function ArticleList() {
         <div className="max-w-6xl mx-auto md:p-5 px-1">
 
             <div className="flex items-center gap-3 mb-8">
-                    <div className="bg-blue-500/10 p-2 rounded-full">
-                      <FontAwesomeIcon icon={faBookOpen} className="h-6 w-6 text-[#0369a1]" />
-                    </div>
-                    <h1 className="text-3xl font-bold text-black text-center md:text-left">
-                      President's Message
-                    </h1>
-                  </div>
+                <div className="bg-blue-500/10 p-2 rounded-full">
+                    <FontAwesomeIcon icon={faBookOpen} className="h-6 w-6 text-[#0369a1]" />
+                </div>
+                <h1 className="text-3xl font-bold text-black text-center md:text-left">
+                    Taxscan Latest Article
+                </h1>
+            </div>
             <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-10">
                 {articles.slice(0, 2).map((article, index) => (
                     <div className="relative">
-                    {/* Left Gradient Line - Positioned Outside */}
-                    <span className="rotate-90 absolute left-21.5 bottom-24  transform -translate-x-full bg-gradient-to-r from-transparent via-blue-600 to-transparent h-px w-1/4"></span>
-                
-                    <div
-                        key={index}
-                        className="relative bg-white rounded border border-gray-200 p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
-                    >
-                        <h2 className="text-xl font-semibold text-gray-800 mb-2">{article.heading}</h2>
-                        <p className="text-sm text-[#868686] mb-3">{article.postDate}</p>
-                        <p className="text-[#868686] mb-4 line-clamp-3">
-                            {article.content}
-                        </p>
-                        <div className="flex gap-3 md:flex-row flex-col">
-                            <button className="flex border border-gray-200 justify-center items-center gap-2 px-4 py-2 bg-[#0369a1]/10 text-black rounded-4xl hover:bg-warm-coral transition-colors duration-200 text-sm font-medium hover:bg-[#0369a1] hover:text-white">
-                                <a href="#" className="">
-                                    Read More
-                                </a>
-                                <FontAwesomeIcon icon={faArrowRight} className="text-sm" />
-                            </button>
-                            <button className="flex justify-center items-center gap-2 px-8 py-2 border border-gray-200 bg-gray-50 rounded-4xl hover:bg-gray-300 transition-colors duration-200 text-sm font-medium">
-                                <a href="#" className="">
-                                    Share
-                                </a>
-                                <FontAwesomeIcon icon={faShareAlt} className="text-sm" />
-                            </button>
+                        {/* Left Gradient Line - Positioned Outside */}
+                        <span className="rotate-90 absolute left-21.5 bottom-24  transform -translate-x-full bg-gradient-to-r from-transparent via-blue-600 to-transparent h-px w-1/4"></span>
+
+                        <div
+                            key={index}
+                            className="relative bg-white rounded border border-gray-200 p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+                        >
+                            <h2 className="text-xl font-semibold text-gray-800 mb-2">{article.heading}</h2>
+                            <p className="text-sm text-[#868686] mb-3">{article.postDate}</p>
+                            <p className="text-[#868686] mb-4 line-clamp-3">
+                                {article.content}
+                            </p>
+                            <div className="flex gap-3 md:flex-row flex-col">
+                                <button className="flex border border-gray-200 justify-center items-center gap-2 px-4 py-2 bg-[#0369a1]/10 text-black rounded-4xl hover:bg-warm-coral transition-colors duration-200 text-sm font-medium hover:bg-[#0369a1] hover:text-white">
+                                    <a href="#" className="">
+                                        Read More
+                                    </a>
+                                    <FontAwesomeIcon icon={faArrowRight} className="text-sm" />
+                                </button>
+                                <button className="flex justify-center items-center gap-2 px-8 py-2 border border-gray-200 bg-gray-50 rounded-4xl hover:bg-gray-300 transition-colors duration-200 text-sm font-medium">
+                                    <a href="#" className="">
+                                        Share
+                                    </a>
+                                    <FontAwesomeIcon icon={faShareAlt} className="text-sm" />
+                                </button>
+                            </div>
+
+                            {/* Right Gradient Line - Inside the Box */}
+                            <span className="absolute right-0 bottom-0 bg-gradient-to-r from-transparent via-blue-600 to-transparent h-px w-1/4"></span>
                         </div>
-                
-                        {/* Right Gradient Line - Inside the Box */}
-                        <span className="absolute right-0 bottom-0 bg-gradient-to-r from-transparent via-blue-600 to-transparent h-px w-1/4"></span>
                     </div>
-                </div>
-                
+
                 ))}
             </div>
-            <div className="mt-6 text-center">
-                <button className="px-6 py-3 bg-[#0369a1] text-white rounded-full hover:bg-[#0483c8] transition-colors duration-200 text-sm font-medium">
-                    View All Articles
+            <div className="mt-6 flex justify-center">
+                <button className="flex border border-gray-200 justify-center items-center gap-2 px-8 py-3 bg-[#0369a1]  text-white rounded-4xl hover:bg-warm-coral transition-colors duration-200 text-sm font-medium hover:bg-[#0369a1]/90 hover:text-white">
+                    <a href="#" className="">
+                        View all articles
+                    </a>
+                    <FontAwesomeIcon icon={faArrowRight} className="text-sm" />
                 </button>
             </div>
         </div>
