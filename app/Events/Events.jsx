@@ -3,6 +3,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Heading from '../components/Heading/Heading';
 
 // Dummy data for events
 const events = [
@@ -78,7 +79,7 @@ function Events() {
     return (
         <div className='mx-auto w-full max-w-screen-2xl pricing-container'>
         <div className="max-w-6xl mx-auto ">
-            <h1 className="text-3xl font-bold  mb-6 text-center">Upcoming Events</h1>
+            <h1 className="text-3xl font-bold  mb-6 text-center"><Heading headingText="Forthcoming Programs" /></h1>
             <Slider {...settings}>
                 {events.map((event, index) => (
                     <div key={index} className="px-2">
