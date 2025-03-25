@@ -5,7 +5,7 @@ import { faArrowRight, faShareAlt, faAward } from '@fortawesome/free-solid-svg-i
 
 function PresidentPage() {
   return (
-    <div className="mx-auto px-6 p-5">
+    <div className="mx-auto md:px-6 px-1 p-5">
       <div className="flex items-center gap-3 mb-8">
         <div className="bg-blue-500/10 p-2 rounded-full">
           <FontAwesomeIcon icon={faAward} className="h-6 w-6 text-[#0369a1]" />

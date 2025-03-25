@@ -57,7 +57,7 @@ const articles = [
 
 function ArticleList() {
     return (
-        <div className="max-w-6xl mx-auto p-5">
+        <div className="max-w-6xl mx-auto md:p-5 px-1">
 
             <div className="flex items-center gap-3 mb-8">
                     <div className="bg-blue-500/10 p-2 rounded-full">
@@ -82,7 +82,7 @@ function ArticleList() {
                         <p className="text-[#868686] mb-4 line-clamp-3">
                             {article.content}
                         </p>
-                        <div className="flex gap-3">
+                        <div className="flex gap-3 md:flex-row flex-col">
                             <button className="flex border border-gray-200 justify-center items-center gap-2 px-4 py-2 bg-[#0369a1]/10 text-black rounded-4xl hover:bg-warm-coral transition-colors duration-200 text-sm font-medium hover:bg-[#0369a1] hover:text-white">
                                 <a href="#" className="">
                                     Read More
