@@ -83,7 +83,7 @@ function Events() {
             <Slider {...settings}>
                 {events.map((event, index) => (
                     <div key={index} className="px-2">
-                        <div className="bg-white rounded-lg  overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                        <div className="bg-white rounded-lg px-1 py-1 border border-[rgba(0,0,0,0.2)]  overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                             <img
                                 src={event.imageUrl}
                                 alt={event.heading}
