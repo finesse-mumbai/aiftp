@@ -6,7 +6,7 @@ function PreHeader() {
   return (
     <div className="mx-auto w-full max-w-screen-2xl bg-white">
       
-      <div className="flex flex-col md:flex-row justify-between px-14 py-2 border-b border-[rgba(0,0,0,0.05)]">
+      <div className="flex flex-col md:flex-row justify-between px-14 py-3 border-b border-[rgba(0,0,0,0.05)]">
       <Image
               src={logo}
               alt="AIFTP Logo"

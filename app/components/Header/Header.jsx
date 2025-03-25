@@ -25,7 +25,7 @@ export default function Header() {
     transition: '0.1s',
     width: '100%',
     color: '#868686', // Default text color for header
-    background: isFixed ? "#ffffff" : "#ffffff",
+    background: isFixed ? "rgba(255,255,255,0.7)" : "rgba(255,255,255,0.8)",
     backdropFilter:isFixed ? 'blur(7px)':'none',
     zIndex: isFixed ? 100 : 10, // Ensure visibility
     borderBottom: isFixed ? '1px solid #e5e5e5' : "1px solid rgba(0,0,0,0.05)"
@@ -64,13 +64,13 @@ export default function Header() {
                 {d.children && hoveredItem === i && (
                   <div
                   className="absolute left-0 top-10 bg-transparent backdrop-blur-md font-semibold w-auto flex flex-col  shadow-lg"
-                  style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', backdropFilter: 'blur(5px)' }}
+                  style={{ backgroundColor: '#fff', backdropFilter: 'blur(5px)' }}
                 >
                   {d.children.map((ch, j) => (
                     <Link
                       key={j}
                       href={ch.link || "#"}
-                      className="flex cursor-pointer text-sm items-center py-3 border-b border-dashed border-gray-300 pl-4 pr-8 text-[#868686] hover:text-[#000000] hover:bg-white"
+                      className="flex cursor-pointer text-sm items-center py-3 border-b border-dashed border-gray-300 pl-4 pr-8 text-[#868686] hover:text-[#000000] hover:bg-[#0369a1]/10"
                     >
                       <span className="whitespace-nowrap">{ch.label}</span>
                     </Link>
@@ -87,9 +87,9 @@ export default function Header() {
             <button
               className="px-4 py-2 font-semibold text-[#ffffff] hover:text-[#868686] rounded-md  transition-colors"
               style={{
-                backgroundColor: '#262626',
+                backgroundColor: '#0369a1',
                 color: '#868686',
-                border:"2px solid #000000"
+                border:"1px solid #0483c8"
                 
               }}
               onMouseEnter={(e) => (e.target.style.color = '#868686')}
