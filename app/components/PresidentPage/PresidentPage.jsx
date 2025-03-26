@@ -2,6 +2,7 @@ import Image from "next/image";
 import samir from '../../../public/presidentImage.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faShareAlt, faAward } from '@fortawesome/free-solid-svg-icons';
+import Heading from "../Heading/Heading";
 
 function PresidentPage() {
   return (
@@ -10,8 +11,8 @@ function PresidentPage() {
         <div className="bg-blue-500/10 p-2 rounded-full">
           <FontAwesomeIcon icon={faAward} className="h-6 w-6 text-[#0369a1]" />
         </div>
-        <h1 className="text-3xl font-bold text-black text-center md:text-left">
-          President's Message
+        <h1 className="text-center font-bold md:text-left">
+          <Heading headingText="President's Message"  />
         </h1>
       </div>
 

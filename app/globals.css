@@ -4,9 +4,9 @@
     --background-color: #FAFAFA;
     --background-color-box: #ffffff;
     --text-color: #868686;
-    --heading-color:#0369a1;
-    --first-bg:#0369a1;
-    --second-bg:#0369a11a;
+    --heading-color: #0369a1;
+    --first-bg: #0369a1;
+    --second-bg: #0369a11a;
     --text-color-heading: #202020;
     --border-color: rgba(0, 0, 0, 0.09);
     --text-color-two: rgba(0, 0, 0, 0.5);
@@ -27,40 +27,61 @@ body {
 
 /* CSS for Event Card Slider */
 .pricing-container {
-    padding: 40px 1px;
+    padding-top: 60px;
+    padding-bottom: 80px;
     background: linear-gradient(to top, #ffffff, #e6eaff);
-    background-image: 
-      linear-gradient(var(--dot-color, rgba(0, 0, 0, 0.02)) 1px, transparent 1px),
-      linear-gradient(90deg, var(--dot-color, rgba(0, 0, 0, 0.02)) 1px, transparent 1px);
-    background-size:60px 60px; 
+    background-image:
+        linear-gradient(var(--dot-color, rgba(0, 0, 0, 0.02)) 1px, transparent 1px),
+        linear-gradient(90deg, var(--dot-color, rgba(0, 0, 0, 0.02)) 1px, transparent 1px);
+    background-size: 60px 60px;
     background-position: 0 0;
     background-color: var(--background-color, #ffffff);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(1px);
     margin-top: -6;
-  }
-
-  /* Heading text animation */
-
-
-.masked-text {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: transparent;
-    background-image: url('https://t3.ftcdn.net/jpg/04/35/49/62/360_F_435496252_Q117s1v2ifaBpzETaDaZhdRvVRXXVQAl.jpg'); 
-    background-size: 200%; /* Enlarged for smooth animation */
-    background-position: 0 50%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: animate-background 5s infinite alternate linear;
-    letter-spacing: 2px;
+    border-bottom: 1px solid var(--border-color);
+    overflow: hidden;
 }
 
-@keyframes animate-background {
-    0% {
-        background-position: 0 50%;
+/* Heading text animation */
+.masked-text.small {
+    font-size: 1rem;
+  }
+  .masked-text.medium {
+    font-size: 1.7rem;
+  }
+  .masked-text.large {
+    font-size: 2.4rem;
+  }
+.masked-text {
+    background-image: linear-gradient(-225deg,
+            #2e7d32 0%,
+            #0369a1 29%,
+            #0369a1 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
     }
-    100% {
-        background-position: 100% 50%;
+}
+
+@media screen and (max-width:700px){
+    .masked-text.small,.masked-text.medium, .masked-text.large {
+        font-size: 1.5rem !important;
     }
+    .pricing-container{
+        padding-bottom: 40px !important
+    }
+    
 }

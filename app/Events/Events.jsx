@@ -77,9 +77,9 @@ function Events() {
     };
 
     return (
-        <div className='mx-auto w-full max-w-screen-2xl pricing-container'>
+        <div className='relative mx-auto w-full max-w-screen-2xl pricing-container'>
         <div className="max-w-6xl mx-auto ">
-            <h1 className="text-3xl font-bold  mb-6 text-center"><Heading headingText="Forthcoming Programs" /></h1>
+            <h1 className="text-3xl font-bold  mb-10 text-center"><Heading headingText="Forthcoming Programs" size='large' /></h1>
             <Slider {...settings}>
                 {events.map((event, index) => (
                     <div key={index} className="px-2">
@@ -92,7 +92,7 @@ function Events() {
                             <div className="p-4">
                                 <h2 className="text-lg font-semibold text-gray-800 mb-3 truncate">{event.heading}</h2>
                                 <div className="flex justify-between items-center">
-                                    <button className="flex border border-gray-200 justify-center items-center gap-2 px-4 py-2 bg-[#0369a1]/5 text-black rounded-full hover:bg-[#0369a1] hover:text-white transition-colors duration-200 text-sm font-medium">
+                                    <button className="flex border border-gray-200 justify-center items-center gap-2 px-4 py-2 bg-[#0369a1]/2 text-black rounded-full hover:bg-[#0369a1] hover:text-white transition-colors duration-200 text-sm font-medium">
                                         <a href="#" className="">
                                             Register Now
                                         </a>
@@ -105,6 +105,9 @@ function Events() {
                     </div>
                 ))}
             </Slider>
+        </div>
+        <div className='w-full h-10 bg-[#0369a1]/10 absolute bottom-0 blur-3xl'>
+
         </div>
         </div>
     );

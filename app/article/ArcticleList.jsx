@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faShareAlt, faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import Heading from '../components/Heading/Heading';
 
 const articles = [
     {
@@ -63,9 +64,9 @@ function ArticleList() {
                 <div className="bg-blue-500/10 p-2 rounded-full">
                     <FontAwesomeIcon icon={faBookOpen} className="h-6 w-6 text-[#0369a1]" />
                 </div>
-                <h1 className="text-3xl font-bold text-black text-center md:text-left">
-                    Taxscan Latest Article
-                </h1>
+               <h1 className="text-center font-bold md:text-left">
+                         <Heading headingText="Taxscan Latest Article"  />
+                       </h1>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-10">
                 {articles.slice(0, 2).map((article, index) => (
