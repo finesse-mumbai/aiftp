@@ -9,7 +9,7 @@ function WhatsNewCard({ title, icon, newtext }) {
             <div 
                 className="relative rounded-xl p-3 border border-l-emerald-700/20 border-r-blue-500/20 border-t-emerald-700/20 border-b-blue-700/20 group hover:shadow-lg transition-shadow duration-300"
                 style={{
-                    background: "linear-gradient(135deg, rgba(16, 185, 129, 0.06), rgba(59, 130, 246, 0.08))",
+                    background: "linear-gradient(135deg, rgba(16, 185, 129, 0.04), rgba(59, 130, 246, 0.08))",
                     backdropFilter: "blur(3px)"
                 }}
             >
@@ -23,7 +23,7 @@ function WhatsNewCard({ title, icon, newtext }) {
 
                 {/* Title & Icon */}
                 <div className="flex flex-col gap-2 mb-4">
-                    <div className="bg-blue-500/5 p-2 w-10 h-10 rounded-full">
+                    <div className=" bg-white p-2 w-10 h-10 rounded-full">
                         <FontAwesomeIcon icon={icon} className="h-6 w-6 text-[#0369a1]" />
                     </div>
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import WhatsNewCard from './WhatsNewCard'
 import { faUsers, faFileAlt, faUserFriends } from '@fortawesome/free-solid-svg-icons';
+import Heading from '../Heading/Heading';
 
 const whatsNewItems = [
     { title: "Yearly Activity Report", label: "New", icon: faFileAlt },
@@ -16,9 +17,11 @@ const whatsNewItems = [
 
 function WhatsNewContainer() {
   return (
-    <div className="min-h-screen bg-white relative flex items-center justify-center">
+    <div className="min-h-screen bg-white relative">
         <div className="absolute inset-0 bg-[radial-gradient(#00000020_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,black,transparent)]"></div>
-        
+        <center className='font-bold pt-8'>
+            <Heading headingText="What's New" size='large' />
+        </center>
         <div className="mx-auto w-full max-w-screen-2xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6 px-2 md:px-20 mt-6 md:mt-12">
             {whatsNewItems.map((item, index) => (
                 <div key={index} className="flex justify-center">
