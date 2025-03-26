@@ -43,7 +43,7 @@ function PresidentPage() {
           </p>
 
 
-          <h2 className="text-xl font-semibold text-forest-green mb-4">
+          <h2 className="text-xl text-gray-800 font-semibold text-forest-green mb-4">
             Respected Members & Friends,
           </h2>
 

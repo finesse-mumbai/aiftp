@@ -52,6 +52,9 @@ body {
   .masked-text.large {
     font-size: 2.4rem;
   }
+  .masked-text.tosmall{
+    font-size: 1rem;
+  }
 .masked-text {
     background-image: linear-gradient(-225deg,
             #2e7d32 0%,
@@ -79,6 +82,9 @@ body {
 @media screen and (max-width:700px){
     .masked-text.small,.masked-text.medium, .masked-text.large {
         font-size: 1.6rem !important;
+    }
+    .masked-text.tosmall{
+        font-size: 0.7rem !important;
     }
     .pricing-container{
         padding-bottom: 55px !important;
