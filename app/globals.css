@@ -78,10 +78,10 @@ body {
 
 @media screen and (max-width:700px){
     .masked-text.small,.masked-text.medium, .masked-text.large {
-        font-size: 1.5rem !important;
+        font-size: 1.6rem !important;
     }
     .pricing-container{
-        padding-bottom: 40px !important
+        padding-bottom: 55px !important;
     }
     
 }

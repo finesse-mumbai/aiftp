@@ -7,6 +7,7 @@ import PresidentPage from "./components/PresidentPage/PresidentPage";
 import ArticleList from "./article/ArcticleList";
 import Events from "./Events/Events";
 import Heading from "./components/Heading/Heading";
+import WhatsNewContainer from "./components/WhatsNew/WhatsNewContainer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <PresidentPage />
         <ArticleList />
       </div>
+      <WhatsNewContainer />
 
       <Footer />
     </>
