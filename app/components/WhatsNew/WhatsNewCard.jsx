@@ -9,7 +9,7 @@ function WhatsNewCard({ title, icon, newtext }) {
             <div 
                 className="relative rounded-xl p-3 border border-l-emerald-700/20 border-r-blue-500/20 border-t-emerald-700/20 border-b-blue-700/20 group hover:shadow-lg transition-shadow duration-300"
                 style={{
-                    background: "linear-gradient(135deg, rgba(16, 185, 129, 0.02), rgba(59, 130, 246, 0.02))",
+                    background: "linear-gradient(135deg, rgba(16, 185, 129, 0.06), rgba(59, 130, 246, 0.08))",
                     backdropFilter: "blur(3px)"
                 }}
             >

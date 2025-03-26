@@ -5,7 +5,7 @@ import { faUsers, faFileAlt, faUserFriends } from '@fortawesome/free-solid-svg-i
 const whatsNewItems = [
     { title: "Yearly Activity Report", label: "New", icon: faFileAlt },
     { title: "Current Office Bearers", icon: faUserFriends },
-    { title: "Team AIFTP 2025 Directory", icon: faUsers },
+    { title: "Team AIFTP 2025 Directory",label: "Coming Soon", icon: faUsers },
     { title: "Sub-Committees - 2025", label: "Coming Soon", icon: faFileAlt },
     { title: "Zonal Managing Committee - 2025", icon: faUserFriends },
     { title: "Directory - correct / Edit", icon: faFileAlt },

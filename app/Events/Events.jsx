@@ -78,11 +78,11 @@ function Events() {
 
     return (
         <div className='relative mx-auto w-full max-w-screen-2xl pricing-container'>
-        <div className="max-w-6xl mx-auto ">
+        <div className="max-w-7xl mx-auto ">
             <h1 className="text-3xl font-bold  mb-10 text-center"><Heading headingText="Forthcoming Programs" size='large' /></h1>
             <Slider {...settings}>
                 {events.map((event, index) => (
-                    <div key={index} className="px-2">
+                    <div key={index} className="px-3">
                         <div className="bg-white rounded-lg px-1 py-1 border border-gray-200  overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                             <img
                                 src={event.imageUrl}
