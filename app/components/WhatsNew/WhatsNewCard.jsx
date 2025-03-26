@@ -5,7 +5,7 @@ import Heading from '../Heading/Heading';
 
 function WhatsNewCard({ title, icon, newtext }) {
     return (
-        <div className="relative w-full max-w-sm mx-4">
+        <div className="relative w-full max-w-sm ">
             <div 
                 className="relative rounded-xl p-3 border border-l-emerald-700/20 border-r-blue-500/20 border-t-emerald-700/20 border-b-blue-700/20 group hover:shadow-lg transition-shadow duration-300"
                 style={{
