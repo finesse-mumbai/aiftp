@@ -79,7 +79,7 @@ function LastSection() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10 justify-items-center p-10">
         {cardData.map((card, index) => (
           <div key={index} className="flex flex-col items-center">
-            <div className="w-36 h-36 bg-white rounded-full shadow flex items-center justify-center p-4 border border-gray-100 hover:shadow-xl transition-shadow relative">
+            <div className="md:w-36 md:h-36 w-44 h-44 bg-white rounded-full shadow flex items-center justify-center p-4 border border-gray-100 hover:shadow-xl transition-shadow relative">
               <Image 
                 src={card.image}
                 alt={card.alt}
