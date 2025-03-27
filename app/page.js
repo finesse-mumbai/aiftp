@@ -8,6 +8,8 @@ import ArticleList from "./article/ArcticleList";
 import Events from "./Events/Events";
 import Heading from "./components/Heading/Heading";
 import WhatsNewContainer from "./components/WhatsNew/WhatsNewContainer";
+import LastSection from "./components/LastSection/LastSection";
+import { TextHoverEffect } from "./components/Heading/TextHoverEffect";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
         <ArticleList />
       </div>
       <WhatsNewContainer />
+      <LastSection />
+      <TextHoverEffect text="JOIN AIFTP" />
 
       <Footer />
     </>

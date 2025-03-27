@@ -17,9 +17,9 @@ const whatsNewItems = [
 
 function WhatsNewContainer() {
   return (
-    <div className="min-h-screen bg-white relative">
+    <div className="min-h-screen bg-white relative md:py-16 py-8">
         <div className="absolute inset-0 bg-[radial-gradient(#00000020_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,black,transparent)]"></div>
-        <center className='font-bold pt-8'>
+        <center className='font-bold md:pt-8 pt-4'>
             <Heading headingText="What's New" size='large' />
         </center>
         <div className="mx-auto w-full max-w-screen-2xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6 px-2 md:px-20 mt-6 md:mt-12">

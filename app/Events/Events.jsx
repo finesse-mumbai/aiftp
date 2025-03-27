@@ -8,22 +8,22 @@ import Heading from '../components/Heading/Heading';
 // Dummy data for events
 const events = [
     {
-        heading: "Tech Summit 2025",
+        heading: "National Tax Conference, Pune",
         startDate: "2025-04-10",
         endDate: "2025-04-12",
         imageUrl: "https://aiftponline.org/wp-content/uploads/2025/02/IMG-20250221-WA0072.jpg",
     },
     {
-        heading: "AI Innovation Workshop",
+        heading: "National Tax Conference, Indore (Central Zone)",
         startDate: "2025-04-15",
         endDate: "2025-04-16",
-        imageUrl: "https://aiftponline.org/wp-content/uploads/2025/02/IMG-20250221-WA0072.jpg",
+        imageUrl: "https://aiftponline.org/wp-content/uploads/2024/12/IMG-20241202-WA0135-512x1024.jpg",
     },
     {
-        heading: "Climate Action Conference",
+        heading: "National Tax Conference, Nellore (Southern Zone)",
         startDate: "2025-04-20",
         endDate: "2025-04-22",
-        imageUrl: "https://aiftponline.org/wp-content/uploads/2025/02/IMG-20250221-WA0072.jpg",
+        imageUrl: "https://aiftponline.org/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-27-at-15.55.30-768x1086.jpeg",
     },
     {
         heading: "Space Exploration Expo",
@@ -32,10 +32,10 @@ const events = [
         imageUrl: "https://aiftponline.org/wp-content/uploads/2025/02/IMG-20250221-WA0072.jpg",
     },
     {
-        heading: "Blockchain Summit",
-        startDate: "2025-05-01",
-        endDate: "2025-05-03",
-        imageUrl: "https://aiftponline.org/wp-content/uploads/2025/02/IMG-20250221-WA0072.jpg",
+        heading: "National Tax Conference, Nellore (Southern Zone)",
+        startDate: "2025-04-20",
+        endDate: "2025-04-22",
+        imageUrl: "https://aiftponline.org/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-27-at-15.55.30-768x1086.jpeg",
     },
     {
         heading: "Welcome back friends after a successful first National Tax Conference and N",
