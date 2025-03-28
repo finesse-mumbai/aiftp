@@ -1,30 +1,31 @@
-import React from 'react'
-import { TextHoverEffect } from '../Heading/TextHoverEffect'
+import React from 'react';
+import { TextHoverEffect } from '../Heading/TextHoverEffect';
 
 function JointAIFTP() {
   return (
-    <div className="min-h-screen bg-white relative md:py-16 py-8 overflow-hidden border">
-      {/* Flat ground grid */}
-      <div className="absolute inset-0 overflow-hidden border">
+    <div className=" bg-white relative md:py-16 py-8 overflow-hidden border">
+      {/* Grid Overlay */}
+      <div className="absolute inset-0 overflow-hidden">
         <div 
-          className="w-full h-full origin-center border"
+          className="w-full h-full origin-center"
           style={{
             backgroundImage: `
-              linear-gradient(to right, #00000020 1px, transparent 1px),
-              linear-gradient(to bottom, #00000020 1px, transparent 1px)
+              linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+              linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px)
             `,
-            backgroundSize: "60px 60px",
-            transform: "perspective(500px) rotateX(60deg) scaleY(0.2)",
-            maskImage: "radial-gradient(ellipse at end, black, transparent)"
+            backgroundSize: "90px 90px", // More refined grid
+            transform: "perspective(800px) rotateX(45deg) scaleY(0.5)", // Adjusted perspective
+            maskImage: "radial-gradient(circle, rgba(0, 0, 0, 0.7), transparent 70%)"
           }}
         ></div>
       </div>
-      
-      <div className="relative z-10">
-        <TextHoverEffect text="ARMAN" />
+
+      {/* Content with Hover Effect */}
+      <div>
+        <TextHoverEffect text="JOIN AIFTP" />
       </div>
     </div>
-  )
+  );
 }
 
-export default JointAIFTP
+export default JointAIFTP;

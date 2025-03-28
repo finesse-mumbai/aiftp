@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <WhatsNewContainer />
       <LastSection />
-      <TextHoverEffect text="JOIN AIFTP" />
+    
       <JointAIFTP />
 
     </>
