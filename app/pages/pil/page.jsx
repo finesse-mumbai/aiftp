@@ -5,6 +5,8 @@ const page = () => {
     <div className="mx-auto md:px-12 py-10">
       <table className="table-auto border-collapse   w-full text-[14px]">
         <thead className="bg-[#0369a1]">
+
+          
          <tr>
             <th className=" p-2 align-top text-white font-medium w-20 py-3 ">
               Sr. No.
