@@ -1,6 +1,5 @@
 import React from "react";
-import Heading from "../components/Heading/Heading";
-
+import Heading from "@/app/components/Heading/Heading";
 const page = () => {
   return (
     <div className='mx-auto md:px-20 pt-12 px-4'>

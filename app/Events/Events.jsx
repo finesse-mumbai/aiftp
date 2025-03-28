@@ -78,6 +78,15 @@ function Events() {
 
     return (
         <div className='relative mx-auto w-full max-w-screen-2xl pricing-container'>
+       
+       <div className="absolute inset-0" style={{
+                backgroundImage: `
+    linear-gradient(to right, #00000020 1px, transparent 1px),
+    linear-gradient(to bottom, #00000020 1px, transparent 1px)
+  `,
+                backgroundSize: "60px 60px",
+                maskImage: "radial-gradient(ellipse 50% 50% at 50% 50%, black, transparent)"
+            }}></div>
         <div className="max-w-7xl mx-auto ">
             <h1 className="text-3xl font-bold  mb-10 text-center"><Heading headingText="Forthcoming Programs" size='large' /></h1>
             <Slider {...settings}>
@@ -106,7 +115,7 @@ function Events() {
                 ))}
             </Slider>
         </div>
-        <div className='w-full h-10 bg-[#0369a1]/10 absolute bottom-0 blur-3xl'>
+        <div className='w-full h-10 bg-[#0369a1]/10 absolute bottom-0 blur-xl'>
 
         </div>
         </div>
