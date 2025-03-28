@@ -14,8 +14,7 @@ import { TextHoverEffect } from "./components/Heading/TextHoverEffect";
 export default function Home() {
   return (
     <>
-      <PreHeader />
-      <Header />
+ 
       <ImageSlider />
       <Events />
       <Heading/ >
@@ -27,7 +26,7 @@ export default function Home() {
       <LastSection />
       <TextHoverEffect text="JOIN AIFTP" />
 
-      <Footer />
+      
     </>
   );
 }
