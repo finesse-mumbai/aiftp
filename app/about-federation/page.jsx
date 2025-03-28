@@ -3,7 +3,7 @@ import Heading from "../components/Heading/Heading";
 
 const page = () => {
   return (
-    <div className='mx-auto md:px-20 pt-12 px-1 p-5"'>
+    <div className='mx-auto md:px-20 pt-12 px-4'>
       <h1 className="text-center font-bold md:text-left">
         <Heading headingText="About Federation" />
       </h1>
