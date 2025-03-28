@@ -9,7 +9,7 @@ const navItems = [
       children: [
         {
           label: "About Federation",
-          link: "@",
+          link: "/pages/about-federation",
         },
         {
           label: "Constitution",
@@ -25,7 +25,7 @@ const navItems = [
         },
         {
           label: "PIL",
-          link: "#",
+          link: "/pages/pil",
         },
         {
           label: "Proposed Amendments to the Constitution to be considered in the NEC meeting",
