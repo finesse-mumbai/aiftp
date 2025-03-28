@@ -13,15 +13,15 @@ const navItems = [
         },
         {
           label: "Constitution",
-          link: "#",
+          link: "assets/pdf/Constitution-of-AIFTP.pdf",
         },
         {
           label: "Amendments to Constitution Rules 20-08-2021",
-          link: "#",
+          link: "assets/pdf/Amendments-Constitution-Rules-20-08-2021.pdf",
         },
         {
           label: "Election Code of Conduct 20-08-2021",
-          link: "#",
+          link: "assets/pdf/election-code-conduct-20-08-2021.pdf",
         },
         {
           label: "PIL",
@@ -33,11 +33,11 @@ const navItems = [
           children: [
             {
               label: "Part A",
-              link: "#"
+              link: "assets/pdf/AIFTP-Memorandum-of-Association-and-Rules-and Regulations.pdf"
             },
             {
               label: "Part B",
-              link: "#",
+              link: "assets/pdf/AIFTP-Memorandum-of-Association-and-Rules-and Regulations-2.pdf",
             },
           ],
         },
