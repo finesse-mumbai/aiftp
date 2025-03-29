@@ -43,7 +43,7 @@ const navItems = [
       children: [
         {
           label: "Journal",
-          link: "#",
+          link: "/pages/journal",
         },
         {
           label: "Times",
