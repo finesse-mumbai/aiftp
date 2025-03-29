@@ -13,33 +13,27 @@ const navItems = [
         },
         {
           label: "Constitution",
-          link: "#",
+          link: "/assets/pdf/Constitution-of-AIFTP.pdf",
         },
         {
           label: "Amendments to Constitution Rules 20-08-2021",
-          link: "#",
+          link: "/assets/pdf/Amendments-Constitution-Rules-20-08-2021.pdf",
         },
         {
           label: "Election Code of Conduct 20-08-2021",
-          link: "#",
+          link: "/assets/pdf/election-code-conduct-20-08-2021.pdf",
         },
         {
           label: "PIL",
           link: "/pages/pil",
         },
         {
-          label: "Proposed Amendments to the Constitution to be considered in the NEC meeting",
-          link: "#",
-          children: [
-            {
-              label: "Part A",
-              link: "#"
-            },
-            {
-              label: "Part B",
-              link: "#",
-            },
-          ],
+          label: "Proposed Amendments to the Constitution to be considered in the NEC meeting - Part A",
+          link: "/assets/pdf/AIFTP-Memorandum-of-Association-and-Rules-and Regulations.pdf",
+        },
+        {
+          label: "Proposed Amendments to the Constitution to be considered in the NEC meeting - Part B",
+          link: "/assets/pdf/AIFTP-Memorandum-of-Association-and-Rules-and Regulations-2.pdf",        
         },
       ],
     },
@@ -49,7 +43,7 @@ const navItems = [
       children: [
         {
           label: "Journal",
-          link: "#",
+          link: "/pages/journal",
         },
         {
           label: "Times",

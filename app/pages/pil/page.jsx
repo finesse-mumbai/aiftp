@@ -231,7 +231,7 @@ const page = () => {
               pending for final hearing before the Supreme Court.
             </td>
           </tr>
-          <tr className="bg-black/3 border-b-gray-200">
+          <tr className="border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               &nbsp;
             </td>
@@ -254,7 +254,7 @@ const page = () => {
               &nbsp;
             </td>
           </tr>
-          <tr className=" border border-b-gray-200">
+          <tr className="bg-black/3 border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               9.
             </td>
@@ -377,7 +377,7 @@ const page = () => {
               Stayed the operation of the National Tax&nbsp; Tribunal Ordinance.
             </td>
           </tr>
-          <tr className="bg-black/3 border border-b-gray-200">
+          <tr className=" border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               &nbsp;
             </td>
@@ -399,7 +399,7 @@ const page = () => {
               &nbsp;
             </td>
           </tr>
-          <tr className="  border border-b-gray-200">
+          <tr className="bg-black/3   border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               13.
             </td>
@@ -423,14 +423,14 @@ const page = () => {
               Ordinance Lapsed &ndash; New Bill Introduced.
             </td>
           </tr>
-          <tr className="bg-black/3 border border-b-gray-200">
+          <tr className="border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3 text-center" colSpan={6} >
               <p >
                 PETITIONS FILED BY ASSOCIATION MEMBERS OF FEDERATION
               </p>
             </td>
           </tr>
-          <tr className=" border border-b-gray-200">
+          <tr className="bg-black/3 border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               14.
             </td>
@@ -451,7 +451,7 @@ const page = () => {
               Law is amended.
             </td>
           </tr>
-          <tr className="bg-black/3 border border-b-gray-200">
+          <tr className=" border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               15.
             </td>
@@ -480,7 +480,7 @@ const page = () => {
               <p>&nbsp;</p>
             </td>
           </tr>
-          <tr className="border border-b-gray-200">
+          <tr className=" border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               &nbsp;
             </td>
@@ -500,7 +500,7 @@ const page = () => {
               &nbsp;
             </td>
           </tr>
-          <tr className="bg-black/3 border border-b-gray-200">
+          <tr className=" border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               &nbsp;
             </td>
@@ -525,7 +525,7 @@ const page = () => {
               <p>&nbsp;</p>
             </td>
           </tr>
-          <tr className=" border border-b-gray-200">
+          <tr className="bg-black/3 border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               16.
             </td>
@@ -546,7 +546,7 @@ const page = () => {
               Court.
             </td>
           </tr>
-          <tr className="bg-black/3 border border-b-gray-200">
+          <tr className=" border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               17.
             </td>
@@ -566,7 +566,7 @@ const page = () => {
               Admitted and stay granted. Pending for final disposal.
             </td>
           </tr>
-          <tr className="border border-b-gray-200">
+          <tr className="bg-black/3 border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               18.
             </td>
@@ -586,7 +586,7 @@ const page = () => {
               Held constitutionally valid.
             </td>
           </tr>
-          <tr className="bg-black/3 border border-b-gray-200">
+          <tr className="border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               19.
             </td>
@@ -607,7 +607,7 @@ const page = () => {
               Held constitutionally valid.
             </td>
           </tr>
-          <tr className="border border-b-gray-200">
+          <tr className="bg-black/3  border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               20.
             </td>
@@ -627,7 +627,7 @@ const page = () => {
               Held constitutionally valid.
             </td>
           </tr>
-          <tr className="bg-black/3 border border-b-gray-200">
+          <tr className=" border border-b-gray-200">
             <td className="text-[#808080] p-2 align-top text-[14px] py-3">
               21.
             </td>
