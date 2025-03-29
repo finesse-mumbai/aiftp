@@ -115,7 +115,7 @@ function Events() {
                 ))}
             </Slider>
         </div>
-        <div className='w-full h-10 bg-[#0369a1]/10 absolute bottom-0 blur-xl'>
+        <div className='w-full h-10 bg-[#0369a1]/10 absolute bottom-0 blur-3xl'>
 
         </div>
         </div>

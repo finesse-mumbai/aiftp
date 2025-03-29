@@ -3,6 +3,14 @@ import Image from 'next/image'
 import globe from '../../../public/Global network icon.png'
 import handshake from '../../../public/Join AIFTP icon.png'
 import people from '../../../public/Members icon.png'
+import AIFTP_Times_Icon from '../../../public/AIFTP-Times-Icon.png'
+import indirect_tax_journal from '../../../public/indirect_tax_journal.png'
+import journal_icon from '../../../public/journal_icon.png'
+import newsletter_icon from '../../../public/newsletter_icon.png'
+import online_journal_icon from '../../../public/online_journal_icon.png'
+import tax from '../../../public/tax.png'
+import webinar from '../../../public/webinar.png'
+
 import Heading from '../Heading/Heading'
 
 function LastSection() {
@@ -11,85 +19,85 @@ function LastSection() {
       id: 1,
       image: globe,
       alt: "Global Network",
-      title: "Global Network Connections",
+      title: "AIFTP Members Search",
     },
     {
       id: 2,
       image: handshake,
       alt: "Join AIFTP",
-      title: "Join Our Community",
+      title: "Join Membership",
     },
     {
       id: 3,
       image: people,
       alt: "Members",
-      title: "Active Members",
+      title: "AIFTP Members Directory",
     },
     {
       id: 4,
-      image: globe,
+      image: indirect_tax_journal,
       alt: "Global Network",
-      title: "Global Network Connections",
+      title: "AIFTP Indirect Tax Journal",
     },
     {
       id: 5,
-      image: handshake,
+      image: online_journal_icon,
       alt: "Join AIFTP",
-      title: "Join Our Community",
+      title: "Subscribe AIFTP Journal",
     },
     {
       id: 6,
-      image: people,
+      image: AIFTP_Times_Icon,
       alt: "Members",
-      title: "Active Members",
+      title: "AIFTP Times",
     },
     {
       id: 7,
-      image: globe,
+      image: webinar,
       alt: "Global Network",
-      title: "Global Network Connections",
+      title: "Webinar & Conferences",
     },
     {
       id: 8,
-      image: handshake,
+      image: tax,
       alt: "Join AIFTP",
-      title: "Join Our Community",
+      title: "Direct & Indirect Tax Representation",
     },
     {
       id: 9,
-      image: people,
+      image: journal_icon,
       alt: "Members",
-      title: "Active Members",
+      title: "AIFTP Journal",
     },
     {
       id: 10,
-      image: globe,
+      image: newsletter_icon,
       alt: "Global Network",
-      title: "Global Network Connections",
+      title: "AIFTP Newsletter",
     },
   ];
 
 
   return (
     <div className="min-h-screen bg-[#0369a1]/5 py-12 px-4">
-        <h1 className='text-center font-bold'>
+      <h1 className='text-center font-bold'>
         <Heading headingText="AIFTP Archive" size='large' />
-        </h1>
+      </h1>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10 justify-items-center p-10">
-        {cardData.map((card, index) => (
+        {cardData.map((card) => (
           <div key={card.id} className="flex flex-col items-center">
-            <div className="md:w-36 md:h-36 w-60 h-60 bg-white rounded-full shadow flex items-center justify-center p-4 border border-gray-100 hover:shadow-xl transition-shadow relative">
-              <Image 
+            {/* Ensure image is properly contained */}
+            <div className="relative md:w-36 md:h-36 w-60 h-60 bg-white rounded-full shadow flex items-center justify-center border border-gray-100 hover:shadow-xl hover:scale-110 transition-transform duration-500 ease-in-out p-3">
+              <Image
                 src={card.image}
                 alt={card.alt}
-                fill
-                className="object-contain p-4"
+
+                className="object-contain"
               />
             </div>
-            <p className="mt-4 text-center text-[#0369a1] font-stretch-75% font-bold">
+            <p className="mt-4 text-center text-[#0369a1]/90 font-bold">
               <em>{card.title}</em>
             </p>
-            
           </div>
         ))}
       </div>

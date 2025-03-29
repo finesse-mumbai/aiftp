@@ -8,6 +8,7 @@ import WhatsNewContainer from "./components/WhatsNew/WhatsNewContainer";
 import LastSection from "./components/LastSection/LastSection";
 import { TextHoverEffect } from "./components/Heading/TextHoverEffect";
 import JointAIFTP from "./components/JointAIFTP/JointAIFTP";
+import JournalTimesFreePublication from "./components/JournalTimesFreePublication/JournalTimesFreePublication";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <LastSection />
     
       <JointAIFTP />
+      <JournalTimesFreePublication />
 
     </>
   );

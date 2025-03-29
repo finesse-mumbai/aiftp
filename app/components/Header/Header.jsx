@@ -10,24 +10,23 @@ export default function Header() {
   const [hoveredItem, setHoveredItem] = useState(null);
   const [isFixed, setIsFixed] = useState(false);
 
-  // Handle scroll for fixed header
   useEffect(() => {
     const handleScroll = () => {
-      setIsFixed(window.scrollY > 40); // Trigger at 40px scroll
+      setIsFixed(window.scrollY > 40); 
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const headerStyle = {
-    position: isFixed ? 'fixed' : 'relative', // Toggle position
-    top: isFixed ? '0' : '0', // Always start at top
+    position: isFixed ? 'fixed' : 'relative', 
+    top: isFixed ? '0' : '0', 
     transition: '0.1s',
     width: '100%',
-    color: '#868686', // Default text color for header
+    color: '#868686', 
     background: isFixed ? "rgba(255,255,255,0.7)" : "rgba(255,255,255,0.8)",
     backdropFilter:isFixed ? 'blur(7px)':'none',
-    zIndex: isFixed ? 100 : 10, // Ensure visibility
+    zIndex: isFixed ? 100 : 10, 
     borderBottom: isFixed ? '1px solid #e5e5e5' : "1px solid rgba(0,0,0,0.05)"
   };
 
@@ -92,7 +91,7 @@ export default function Header() {
                 border:"1px solid #0483c8"
                 
               }}
-              onMouseEnter={(e) => (e.target.style.color = '#868686')}
+              onMouseEnter={(e) => (e.target.style.color = '#ffffff')}
               onMouseLeave={(e) => (e.target.style.color = '#ffffff')}
             >
              Member Login
